@@ -5,7 +5,7 @@ LABEL authors="Gabriel Alacchi: alacchi.g@gmail.com, Christian Muehlhaeuser: mue
 # Uncomment to add additional scripting languages for CMD bee usage
 # Added as a new layer intentionally
 RUN apk update && \
-    apk add --no-cache python2 python3 perl ruby lua php # whatever else you want
+    apk add --no-cache python2 python3 perl ruby lua php   # whatever else you want
 
 # Where the admin interface will be served from
 ENV CANONICAL_URL=http://localhost:8181
