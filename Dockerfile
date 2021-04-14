@@ -6,6 +6,8 @@ LABEL authors="Gabriel Alacchi: alacchi.g@gmail.com, Christian Muehlhaeuser: mue
 # Added as a new layer intentionally
 RUN apk update && \
     apk add --no-cache \
+    curl \
+    jq \
     bash \
     python2 \
     python3 \
