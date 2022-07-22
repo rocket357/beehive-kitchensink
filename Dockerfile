@@ -1,4 +1,4 @@
-FROM fribbledom/beehive:latest
+FROM rocket357/beehive:latest
 
 LABEL authors="Gabriel Alacchi: alacchi.g@gmail.com, Christian Muehlhaeuser: muesli@gmail.com, Jonathon Sisson: sisson.j@gmail.com"
 
