@@ -10,7 +10,6 @@ RUN apk update && \
     curl \
     jq \
     bash \
-    python2 \
     python3 \
     perl \
     ruby \
